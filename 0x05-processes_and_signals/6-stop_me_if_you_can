@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script that kill 4-to_infinity_and_beyond without
+#+ using "kill" command
+
+pkill -f 4-to_infinity_and_beyond
