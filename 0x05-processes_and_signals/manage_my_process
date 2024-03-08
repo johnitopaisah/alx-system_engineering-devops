@@ -2,7 +2,7 @@
 # Script that indefinitely write "I am alive!
 #+ to the file "/tmp/my_process"
 
-while true
+while (( 1 ))
 do
   echo "I am alive!" > /tmp/my_process
   sleep 2
